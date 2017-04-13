@@ -8,6 +8,11 @@ namespace Trivia
 {
     class Question
     {
-        
+       public string Description { get; private set; }
+
+        public Question(string description)
+        {
+            Description = description;
+        }
     }
 }
