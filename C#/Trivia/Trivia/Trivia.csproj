@@ -65,6 +65,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Question.cs" />
+    <Compile Include="Questions.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameRunner.cs" />
     <Compile Include="Player.cs" />
